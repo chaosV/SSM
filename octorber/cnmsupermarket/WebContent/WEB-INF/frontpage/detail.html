@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>QK商城-商品详情</title>
+<link rel="stylesheet" href="css/base.css">
+<script src="js/jquery-min.js"></script>
+<script src="js/main.js"></script>   
+</head>
+<body>
+
+<div class="site-wrapper" id="detail-page">
+    <div class="head-container">
+    <div class="head">
+        <div class="top_head">
+            <img src="images/home-icon.png" class="home-icon">
+            <div class="top-msg"><a href="index.html">QK商城</a></div>
+            <div class="top-msg">您好，欢迎来到QK商城！</div>
+            <div class="top-login-msg"><a href="login.html">请登录</a></div>
+                    
+            <div class="top-login-msg"><a href="register.html">注册</a></div>
+                    
+            <div class="top-right">
+                <div class="shopping-cart">
+                    <a href="cart.html">购物车</a>
+                </div>
+                <div class="user-center" >
+                    <a href="javascript:void(0);">我的中心
+                        <img src="images/arrow-down-grey.png">
+                    </a>
+                    <div class="user-center-list">
+                        <a href="javascript:void(0);">我的中心<img src="images/arrow-up-grey.png"></a>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="tit"><a href="user-center.html">个人信息</a></li>
+                                <li><a href="user-center-pw.html">修改密码</a></li>
+                                <li><a href="user-center-addr.html">收货地址</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a href="order_list.html">我的订单</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav clearfix">
+        <a href="index.html">
+            <img src="images/logo.png" class="site-logo float-l">
+        </a>
+        <div id="search-box">
+            <input id="search-mode" value="all" type="hidden">
+            <div id="search-type">
+                <ul>
+                    <li class="selected" data-value="all" data-ph="请输入您要的商品">全部</li>
+                    <li data-value="book" data-ph="请输入您要的书籍">书籍</li>
+                    <li data-value="cloth" data-ph="请输入您要的服饰">服饰</li>
+                    <li data-value="food" data-ph="请输入您要的食品">食品</li>
+                </ul>
+                <div class="search-form">
+                    <input type="text" name="inp-search" id="inp-search" placeholder="请输入您要的商品" >
+                    <input onclick="search();" value="搜 索" type="button">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+
+    <div class="breadcrumbs">
+        <div class="container">
+            <a href='index.html'>首页</a><span class="sep">&gt;</span>
+            <a href='list.html'>商品列表</a><span class="sep">&gt;</span>
+            <span>商品详情</span>
+        </div>
+    </div>
+    <div class="goods-detail">
+        <div class="good-img"><img src="images/book4-max.png"></div>
+        <h3>世界汉学</h3>
+        <p class="desc">带你了解不一样的汉学。</p>
+        <p class="price">￥130.00</p>
+        <a class="btn" href="cart.html">加入购物车</a>
+    </div>
+</div>
+    
+
+<div id="footer">
+    <div class="footer-container">
+        <p>轻课学院&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;版权所有&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    </div>
+</div>
+
+</body>
+</html>

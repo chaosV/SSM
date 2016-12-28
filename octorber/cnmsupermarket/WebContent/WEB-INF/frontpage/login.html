@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>QK商城-登录</title>
+<link rel="stylesheet" href="css/base.css">
+<script src="js/jquery-min.js"></script>
+<script src="js/main.js"></script>   
+</head>
+<body>
+<div class="site-wrapper" id="login">
+    <div class="login-top">
+        <div class="blank-nav clearfix">
+            <a href="index.html">
+                <img src="images/logo.png" class="site-logo float-l">
+            </a>
+        </div>
+    </div>
+    <div id="content">
+        <div class="login-wrap">
+            <div class="login-form">
+                <div class="login-box">
+                    <div class="mt">
+                        <h1>QK会员</h1>
+                        <div class="regist-link">
+                            <a href="register.html" target="_blank">立即注册 >></a>
+                        </div>
+                    </div>
+                    <div>
+                        <form id="formlogin" method="post" onsubmit="return false;">
+                            <div class="item item-fore1">
+                                <label for="loginname" class="login-label name-label"></label>
+                                <input id="loginname" type="text" class="itxt" name="loginname" tabindex="1" placeholder="邮箱/用户名/已验证手机">
+                                <span class="clear-btn"></span>
+                            </div>
+                            <div id="entry" class="item item-fore2">
+                                <label class="login-label pwd-label" for="nloginpwd"></label>
+                                <label id="sloginpwd" style="display: none;"></label>
+                                <input type="password" id="pwd" name="nloginpwd" class="itxt itxt-error" tabindex="2" placeholder="密码">
+                            </div>
+                            <div class="item">
+                                <div class="login-btn">
+                                    <a href="index.html" id="login-submit" tabindex="6">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
